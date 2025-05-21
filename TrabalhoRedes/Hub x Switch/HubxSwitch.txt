@@ -1,0 +1,12 @@
+11.
+a) 5 hosts.
+b) Sim
+c) Sim, 4 hosts descartam a solicitação de ping
+d) 1 máquina
+e) 5 hosts
+f) sim
+g) Sim, 4 hosts descartam a solicitação de ping
+
+18.
+h) Quando uma máquina tenta realizar a comunicação com outra na mesma rede, utilizando um Hub, a mensagem de eco é enviada para todas as máquinas presente na rede, já no Switch a mensagem é enviada individualmente.
+i) É utilizada para evitar algum loop que possivelmente ocorrerá na rede.
