@@ -1,0 +1,15 @@
+8. 
+a) Sim, houve a troca dos IPs das máquinas 0 e 9. pois o comando "ipconfig /release" desconectando o computador da rede, e o comando "ipconfig /renew" que atribui outro IP a máquina.
+b) Inutiliza o IP da máquina em que o comando foi executado
+c) Atribui um novo IP a máquina em que o comando foi executado
+d) ...
+e) Não, por conta do limitador de máquinas inserido no servidor.
+
+13. O número máximo de usuários configurada no servidor foi excedida
+
+14. Para que o IP das máquinas conectadas ao servidor possa ser configurado de maneira dinâmica.
+
+21.
+f) Podem atuar sim!!
+g) Acredito que a utilização de dois servidores dentro de uma mesma rede não é vantajosa
+h) 
