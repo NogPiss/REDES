@@ -1,1 +1,2 @@
-14. Todas as redes são da classe C
+14. Todas as redes são da classe C,A,A
+15. Todas as redes são da classe A,C,A
