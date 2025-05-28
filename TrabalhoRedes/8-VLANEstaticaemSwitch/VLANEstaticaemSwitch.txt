@@ -1,0 +1,36 @@
+VLAN ESTÁTICA EM SWITCH
+
+3 - Todos os hosts recebem os pacotes
+
+5 - respondem os ips de final 2, 3, e 4
+
+6 - respondem os ips de final 6 e 7
+
+7 - respondem os ips de final 8, 10, 11, 12
+
+9-
+PC0 - 3, 4 e 6
+PC4 - 2 e 7
+pc8 - 8, 10, 11, 12
+
+As alterações que houveram dos primeiros testes para esse, ocorreram porque os acessos as VLAN foram configurados conforme as portas FastEthernet.
+
+---------Questionário
+a) O que faz o comando show vlan brief?
+r: exibe uma representação visual de como estão conectadas as portas as vlans.
+
+b)As portas As portas fo/9, fo/10, fo/11 e fo/12 não foram alteradas. A qual VLAN elas ficaram associadas?
+r: ficaram associadas a vlan default.
+
+c)Caso se mude a porta de conexão de um host que participa de uma VLAN
+estática, que cuidado deve ser tomado? (considerando que deva manter a
+conectividade com os mesmos)
+r: Se deseja manter as mesmas conexões deve configurar para que a nova porta de conexão esteja conectada a VLAN correta.
+
+d)Quais vantajens podem ser encontradas com o uso de VLANs?
+r: Estabelecer linhas de comunicação específicas dentro de um mesmo switch.
+
+e)Como você faria para trocar mensagens entre as VLANs?
+r: seria necessário, assim como para trocar mensagens entre redes distintas novamente, o uso de um roteador.
+
+f)Não seria possível pois para diferenciar e rotear o tráfego entre as VLANs, elas precisariam ter endereços ips diferentes, tendo em vista que o roteamento depende dos endereços IP

@@ -1,0 +1,106 @@
+Serviços entre Redes
+
+
+----------------Config das Redes
+Rede0 = 200.168.0.0
+Server0(IP) = 200.168.0.254
+Default Gateway = 200.168.0.1
+
+Rede2 = 200.168.2.0
+Server2(IP) = 200.168.2.254
+Default Gateway = 200.168.2.1
+
+Rede3 = 200.168.3.0
+Server3(IP) = 200.168.3.254
+Default Gateway = 200.168.3.1
+
+Rede5 = 200.168.5.0
+Server5(IP) = 200.168.5.254
+Default Gateway = 200.168.5.1
+
+
+--------------Testes das Redes
+PC0(IP) = 200.168.0.100
+TTL = 128
+
+PC3(IP) = 200.168.2.100
+TTL = 128
+
+PC6(IP) = 200.168.3.100
+TTL = 128
+
+PC9(IP) = 200.168.5.100
+TTL = 128
+
+--------------------Tabelas RIP
+ROUTER0
+200.168.0.0
+1.0.0.0
+6.0.0.0
+
+ROUTER1
+110.0.0.0
+1.0.0.0
+2.0.0.0
+
+ROUTER2
+200.168.2.0
+2.0.0.0
+3.0.0.0
+
+ROUTER3
+200.168.3.0
+3.0.0.0
+4.0.0.0
+
+ROUTER4
+140.0.0.0
+4.0.0.0
+5.0.0.0
+
+ROUTER5
+200.168.5.0
+5.0.0.0
+6.0.0.0
+
+
+------------------Questionário
+Aqui estão as respostas claras e diretas para suas perguntas:
+
+---
+
+a) O que ocorre, diante de uma falha em um link de backbone, no uso do roteamento dinâmico?
+r: No roteamento dinâmico, os protocolos de roteamento detectam automaticamente a falha e recalculam uma nova rota para alcançar os destinos afetados. Assim, o tráfego é redirecionado por outro caminho disponível, garantindo continuidade da comunicação, se houver rotas alternativas.
+
+b) O que representa o TTL apresentado na resposta do comando “ping”?
+r: O TTL é um valor que limita o número de roteadores (saltos) que um pacote pode atravessar. Cada roteador que encaminha o pacote reduz o TTL em 1,
+Se o TTL chegar a 0, o pacote é descartado, evitando loops infinitos na rede.
+No ping, o valor de TTL mostrado na resposta indica quantos saltos ainda restavam quando o pacote chegou ao destino.
+
+c) O que faz o comando tracert?
+r: O comando tracert mostra o caminho que os pacotes percorrem até o destino**, exibindo cada roteador intermediário. Ele funciona aumentando o TTL a cada tentativa, recebendo mensagens de “tempo excedido” dos roteadores e revelando o trajeto hop a hop.
+
+d) O que faz o serviço HTTP?
+r: O HTTP é o protocolo responsável por transferir páginas web da internet. Ele permite que navegadores solicitem e recebam arquivos (como HTML, imagens e vídeos) de servidores web.
+
+e) O que faz o serviço DNS?
+r: O DNS é o serviço que traduz nomes de domínio em endereços IP, permitindo que computadores localizem servidores na internet de forma amigável aos usuários.
+
+f)Neste exercício quantas redes foram configuradas?
+r: 12 no total, 4 LAN, 6 redes de Comunicação entre os routers, a rede DNS e a rede HTTP
+
+g)Quais os endereços de cada rede?
+200.168.0.0
+200.168.2.0
+200.168.3.0
+200.168.5.0
+1.0.0.0
+2.0.0.0
+3.0.0.0
+4.0.0.0
+5.0.0.0
+6.0.0.0
+140.0.0.0
+110.0.0.0
+
+
