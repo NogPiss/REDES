@@ -1,0 +1,33 @@
+Questionário - Máscara de SUBREDES
+
+A função da máscara de subredes e determinar quais partes do endereço IP fazem parte da rede, e quais fazem parte do host.
+nesses exercícios vamos usar as máscaras 255.255.255.0 /24 e 255.255.255.192 /26, a primeira possibilita até 254 endereços para hosts em uma só subrede, a outra permite apenas 62 endereços utilizaveis para hosts em uma só rede, assim vamos observar um pouco do comportamento das máscaras de subredes
+
+6. Quais máquinas respondem? Por causa de quê?
+r: No caso do PC0, apenas os hosts do PC1 ao PC4 respondem, isso se dá pelo fato de possuirem o mesmo identificador de rede, que observamos nos terceiro octeto do endereço IP, no caso, o número 2
+8.Quais Máquinas respondem, porque?
+r: No caso do PC5, apenas os hosts do PC6 ao PC9 respondem, isso se dá pelo fato de possuirem o mesmo identificador de rede, que observamos no terceiro octeto do endereço IP, no caso, o número 3
+
+9. 
+Qual a classe destas redes?
+r: Classe C
+Quantas redes temos configuradas?
+r: 2 redes, tendo em vista os 2 diferentes identificadores de rede
+Qual o endereço de cada rede?
+r: 200.1.2.0 e 200.1.3.0
+Qual o endereço de broadcast de cada rede?
+r: 200.1.2.255 e 200.1.3.255
+
+13.Quais máquinas respondem? Por causa de quê?
+r: No caso do PC0, apenas os hosts do PC1 ao PC6 respondem, isso se dá pelo fato de não estarem na mesma rede, a máscara de subredes utilizada, é a 255.255.255.192, que permite até 64 endereços totais, dos quais 62 são utilizaveis como hosts, tendo em vista que o último será o endereço de broadcast, temos no pc6 o endereço 200.1.2.60, que será o último utilizado nessa rede, pois os endereços dela vão de 200.1.2.1 até 200.1.2.62, tendo 200.1.2.63 como endereço de broadcast, do pc7 em diante, teremos outra rede, que terá os endereços 200.1.2.65 ao 200.1.2.126, tendo o ip 200.1.2.127 como endereço de broadcast, sendo assim, o switch simples não faz a conexão entre duas subredes distintas
+
+15. Quais máquinas respondem? porque?
+Os pcs do número 7 ao 9 são hosts da mesma rede, na rede que possui os endereços 200.1.2.65 ao 200.1.2.126, sendo assim, apenas esses se comunicam entre si, não se comunicando com os pcs de 0 a 6.
+
+16.
+A) Quantas redes temos configuradas?
+r: 2 redes
+B) Qual o endereço de cada rede?
+r: 200.1.2.0 e 200.1.2.64
+C) Qual o endereço de broadcast de cada rede?
+r: 200.1.2.63 e 200.1.2.127

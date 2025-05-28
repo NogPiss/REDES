@@ -1,0 +1,19 @@
+ROTEAMENTO ESTÁTICO 
+
+
+11. TTL comum: 128
+
+16. TTL por meio do roteador: 126
+Rota - Server > Router > Host
+
+19.
+a) Conectar duas ou mais redes LAN, estabelecendo a relação entre host, server e hosts de outras redes
+b) é o endereço ip que o host utiliza para enviar pacotes para destinos fora da sua própria sub-rede.
+c) O PC fica incomunicável para além da própria rede.
+d) A necessidade da configuração manual da rota entre os routers.
+e) é o conjunto de dispositivos em uma rede que recebem uma mensagem de broadcast enviada por um dos dispositivos desse grupo.
+f) Pois os endereços de broadcast funcionam conforme a própria máscara de subredes, esse endereço não serve para conexões entre diferentes redes.
+g)Representa quanto "Tempo de vida" tem aquele pacote, quantos "saltos ele deu até chegar ao destino"
+h)Exibe a rota utilizada pelo host para enviar o pacote ao destino.
+i)Duas redes.
+j)200.1.0.0 e 200.1.1.0 
