@@ -1,0 +1,2 @@
+a) o ATA faz a ponte entre o mundo analógico (telefone comum) e o digital (rede IP), possibilitando a integração do VoIP com equipamentos antigos.
+b)A redução de custo ocorre quando a chamada usa a Internet (VoIP) para transmitir a voz até perto do destino, e só depois é convertida para rede telefônica comum. Assim, ligações interurbanas ou internacionais viram chamadas locais, saindo bem mais barato.

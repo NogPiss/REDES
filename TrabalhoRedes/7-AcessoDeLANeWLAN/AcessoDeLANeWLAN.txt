@@ -1,0 +1,7 @@
+200.168.5.103
+O servidor que está definindo
+
+a) O servidor
+b) Foram fornecidas pelo roteador 
+c) Também é fornecida pelo servidor
+d) pois a internet funciona com endereços IP

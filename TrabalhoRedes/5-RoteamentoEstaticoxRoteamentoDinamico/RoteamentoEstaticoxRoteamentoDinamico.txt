@@ -1,2 +1,74 @@
-14. Todas as redes são da classe C,A,A
-15. Todas as redes são da classe A,C,A
+13. 
+PC0 = 200.1.0.100
+PC3 = 200.1.1.102 TTL = 128 || 255	
+PC6 = 200.1.2.101 TTL = 128 || 255
+    
+14. As redes são da classe C,A,A
+
+15. As redes são da classe C,A,A
+    Clock rate: 1200
+
+16. As redes são da classe C,A,A
+    Clock rate: 1200
+    Clock rate: 64000
+
+18. 
+Reply from 200.1.1.102: bytes=32 time=1ms TTL=126
+Reply from 200.1.1.102: bytes=32 time=5ms TTL=126
+Reply from 200.1.1.102: bytes=32 time=2ms TTL=126
+Reply from 200.1.1.102: bytes=32 time=3ms TTL=126
+
+Reply from 200.1.2.101: bytes=32 time=4ms TTL=126
+Reply from 200.1.2.101: bytes=32 time=4ms TTL=126
+Reply from 200.1.2.101: bytes=32 time=4ms TTL=126
+Reply from 200.1.2.101: bytes=32 time=3ms TTL=126
+
+Tracing route to 200.1.1.102 over a maximum of 30 hops: 
+
+  1   0 ms      0 ms      0 ms      200.1.0.1
+  2   2 ms      3 ms      1 ms      3.0.0.2
+  3   0 ms      0 ms      1 ms      200.1.1.102
+
+Tracing route to 200.1.2.101 over a maximum of 30 hops: 
+
+  1   0 ms      0 ms      0 ms      200.1.0.1
+  2   1 ms      3 ms      2 ms      1.0.0.2
+  3   0 ms      1 ms      2 ms      200.1.2.101
+
+20.
+a/b) A comunicação da rede Router 2 com a rede Router 0 foi cortada
+
+23.
+	200.1.1.0
+	3.0.0.0
+	2.0.0.0
+24.
+	1.0.0.0
+	2.0.0.0
+	200.1.2.0
+25. 
+	ping 200.1.1.102 (IP de PC3) – TTL = 126 
+	ping 200.1.2.102(IP de PC6) – TTL = 126
+
+	ping 200.1.0.100(IP de PC0) – TTL = 126
+	ping 200.1.2.102(IP de PC6) – TTL = 126
+
+	ping 200.1.0.100(IP de PC0) – TTL = 126
+	ping 200.1.1.102(IP de PC3) – TTL = 126
+
+27.
+c) por conta do roteamento ser de uma maneira predefinida caso haja alguma interferência nesse trajeto os dados não serão passados para a máquina de destino.
+d) Há a possibilidade de uma manutenção na rede ou uma nova rota para ser traçada.
+e) O protocolo RIP irá procurar uma forma de acesso com menos hops, mas, que chegam à máquina de destino.
+f) É um equipamento que ajuda na conexão do computador à rede e controla o ritmo da comunicação
+g) O clock rate nas conexões DCE definem quantos bytes vão passar pelo cabo por segundo
+h) O TTL (Time to Live) representa quantos saltos ele pode dar, caso exceder o número de hops, o pacote será descartado
+i) O comando "tracert" mostra o trajeto que os pacotes fizeram para chegar até o destino
+j) 3
+k) 200.1.0.0
+   200.1.1.0
+   200.1.2.0
+
+l) 200.1.0.255
+   200.1.1.255
+   200.1.2.255
